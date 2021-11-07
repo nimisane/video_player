@@ -49,7 +49,9 @@ class _VideoPlayerState extends State<VideoPlayer> {
             SizedBox(
               height: 20,
             ),
-            Text('Play the video'),
+            Text('Play the video',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 18, color: Colors.black)),
           ],
         ),
       ),
